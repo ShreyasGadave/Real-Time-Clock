@@ -21,6 +21,15 @@ body{
     color: aliceblue;
 }
 
+@media (max-width: 720px) {
+    #time {
+        display: flex;
+        justify-content: center;
+        flex-direction: column;
+    }
+}
+
+
 #time .circle{
     position: relative;
     width: 150px;
